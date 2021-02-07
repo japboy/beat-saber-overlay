@@ -11,18 +11,18 @@ A web-based overlay for Beat Saber
 
 ![image](https://i.imgur.com/WyTjdtd.png)
 
-3. Set the URL as `http://reselim.github.io/overlay/` (HTTP, not HTTPS!) and the size equal to your canvas size (1280x720, etc.)
+3. Set the URL as `https://japboy.github.io/beat-saber-overlay/` and the size equal to your canvas size (1280x720, etc.)
 
 ![image](https://imgur.com/KxowYrw.png)
 
-4. (Optional) For 1080p canvases, add the `scale` modifier (ex. `http://reselim.github.io/overlay/?modifiers=scale`) to scale the overlay by 1.5x
+4. (Optional) For 1080p canvases, add the `scale` modifier (ex. `https://japboy.github.io/beat-saber-overlay/?modifiers=scale`) to scale the overlay by 1.5x
 
 ## Options
 
 Options are added to the URL query as such:
 
 ```
-http://reselim.github.io/overlay/?modifiers=top
+https://japboy.github.io/beat-saber-overlay/?modifiers=top
 ```
 
 ### `ip` and `port`
@@ -39,5 +39,7 @@ Multiple modifiers can be seperated with commas.
 	* Moves the overlay to the right and uses right-to-left text
 - `scale`
 	* Scales the overlay by 1.5x, for use on 1080p canvases
+- `noperf`
+	* Hide the performance overlay
 - `test`
 	* Makes the background black, for testing purposes
